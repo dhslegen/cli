@@ -88,6 +88,15 @@ make install
 npx skills add larksuite/cli -y -g
 ```
 
+**Claude Code plugin marketplace:**
+
+```bash
+claude plugin marketplace add larksuite/cli
+claude plugin install lark-cli@larksuite-cli
+```
+
+When using a fork, replace `larksuite/cli` with the fork's `owner/repo`.
+
 #### Configure & Use
 
 ```bash

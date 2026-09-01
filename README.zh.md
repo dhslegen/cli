@@ -88,6 +88,15 @@ make install
 npx skills add larksuite/cli -y -g
 ```
 
+**Claude Code 插件市场：**
+
+```bash
+claude plugin marketplace add larksuite/cli
+claude plugin install lark-cli@larksuite-cli
+```
+
+使用 fork 时，请将 `larksuite/cli` 替换为 fork 的 `owner/repo`。
+
 #### 配置与使用
 
 ```bash

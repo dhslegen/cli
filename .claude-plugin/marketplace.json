@@ -1,0 +1,29 @@
+{
+  "name": "larksuite-cli",
+  "description": "Official Lark/Feishu CLI skills for Claude Code.",
+  "owner": {
+    "name": "LarkSuite"
+  },
+  "plugins": [
+    {
+      "name": "lark-cli",
+      "source": "./skills",
+      "description": "Operate Lark/Feishu Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more from Claude Code.",
+      "author": {
+        "name": "LarkSuite"
+      },
+      "homepage": "https://github.com/larksuite/cli",
+      "repository": "https://github.com/larksuite/cli",
+      "license": "MIT",
+      "keywords": [
+        "lark",
+        "feishu",
+        "claude-code",
+        "skills"
+      ],
+      "category": "productivity",
+      "skills": "./",
+      "strict": false
+    }
+  ]
+}
